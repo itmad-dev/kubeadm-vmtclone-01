@@ -17,7 +17,7 @@
 
 <#
 .SYNOPSIS
-Create new VMs for K8s bare metal cluster nodes.
+Create new VMs for K8s cluster nodes.
 
 .DESCRIPTION
 Connects to vCenter, creates resource pool for K8s nodes (if needed), validates node request list file (including existing conflicting VM names), sets the network settings for a VM Customization Specification, creates the VMs.
